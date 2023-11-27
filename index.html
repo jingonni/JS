@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style.css">
+    <title>인덱스</title>
+</head>
+<body>
+    <form id="Login">
+        <input required maxlength="10" type="text" id="name" placeholder="이름넣어줘">
+        <input id ="btnLogin" type="submit" value="Loing" />
+    </form>
+        <h1 id="h1" class="hidden"></h1>
+        <h1 id="clock"></h1>
+        <select id="clockWatch">
+            <option value="24">24시간 방식</option>
+            <option value="12">12시간 방식</option>
+        </select>
+        <div id="quote">
+            <span></span><br/>
+            <span></span>
+        </div>
+        
+        <div id="weather">
+            <span>날씨</span>
+            <span>온도</span>
+            <span>지역</span>
+        </div>
+        <form id ="frmToDo">
+            <input type="text" placeholder="할 일을 적고 엔터키를 누르세요" required />
+        </form>
+    
+        <ul id="lstToDo">
+    
+        </ul>
+        <script src='script.js'></script>
+        <script src='timer.js'></script>
+        <script src="quotes.js"></script>
+        <script src="background.js"></script>
+        <script src="weather.js"></script>-
+        <script src="frmtodo.js"></script>
+</body>
+</html>
